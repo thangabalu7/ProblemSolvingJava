@@ -13,11 +13,7 @@ public class SubstringCount {
         	//System.out.println(mainStr.indexOf(subStr, index));
         	System.out.println(index);
             count++;
-            
-            
-            
-            
-            
+                
             index = index + 1; // Move only one character forward for overlapping
         }
 
