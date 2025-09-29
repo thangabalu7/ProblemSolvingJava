@@ -19,7 +19,7 @@ public class Anagram {
 		  return (Arrays.equals(a2, b2));
 		   
 		}
-
+		
 		public static void main(String[] args) {
 
 		    Scanner scan = new Scanner(System.in);
@@ -29,4 +29,6 @@ public class Anagram {
 		    boolean ret = isAnagram(a, b);
 		    System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
 		}
+		
+		
 }
