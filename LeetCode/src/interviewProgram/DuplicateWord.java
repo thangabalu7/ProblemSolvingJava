@@ -28,5 +28,6 @@ public class DuplicateWord {
 	        }
 	        
 	        System.out.println(String.join(" ", result));
+	        System.out.println(seen);
 	    }
 }

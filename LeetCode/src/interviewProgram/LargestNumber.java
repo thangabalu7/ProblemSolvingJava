@@ -5,14 +5,13 @@ import java.util.Scanner;
 
 public class LargestNumber {
 
-	public static void main(String[] args) {
+	public static void main(String[] arg) {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner(System.in);
 		int count =0;
 		int a[]= {1,5,7,9,3,7,8,9};
 		Arrays.sort(a);
-		System.out.println(a.length);
 		System.out.println("Enter the Number");
 		int largestNumber = scan.nextInt();
 		System.out.println(Arrays.toString(a));

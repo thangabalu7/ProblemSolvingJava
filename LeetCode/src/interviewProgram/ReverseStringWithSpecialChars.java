@@ -15,13 +15,12 @@ public class ReverseStringWithSpecialChars {
 	    }
 
 	    // Step 2: reverse them
-	    System.out.println(letters);
+	// System.out.println(letters);
 
 	    // Step 3: rebuild keeping specials in place
 	    int idx = 0;
 	    for (int i = 0; i < arr.length; i++) {
 	        if (Character.isLetterOrDigit(arr[i])) {
-	        	 System.out.println(arr[i]);
 	            arr[i] = letters.charAt(idx++);
 	        }
 	    }

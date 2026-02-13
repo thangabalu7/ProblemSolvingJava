@@ -11,7 +11,7 @@ public class RemoveConsecutiveDuplicates {
     public static void removeConsecutive(String s) {
      char [] a= s.toCharArray();
      String unique="";
-     System.out.println(a.length);
+     
      for(int i=1;i<s.length()-1;i++)
      {
     	 if(a[i]!=a[i-1]&& a[i]!=a[i+1])

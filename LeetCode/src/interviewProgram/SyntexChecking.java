@@ -12,9 +12,10 @@ public class SyntexChecking {
 //		3
 //		([A-Z])(.+)
 //		[AZ[a-z](a-z)
-//		batcatpat(nat
+//		batcatpat(nat  , ((a+b) * [c]) , {[(])} , 
 		Scanner in = new Scanner(System.in);
-		int testCases = Integer.parseInt(in.nextLine());
+		String s = "11";
+		int testCases = Integer.parseInt(in.nextLine()); 
 		while(testCases-->0){
 			String pattern = in.nextLine();
                       try{
@@ -26,6 +27,7 @@ public class SyntexChecking {
                                 System.out.println("Invalid");
                         }
           	//Write your code
+                      
 		}
                  in.close();
 

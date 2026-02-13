@@ -9,8 +9,8 @@ public class RemoveExtraCharacterInString {
 	        String s = scan.nextLine();
 
 	        // Replace , ' & ? with space
-	       s = s.replaceAll("[^a-zA-Z0-9]", "");
-
+	      // s = s.replaceAll("[^a-zA-Z0-9@]", "");
+  s= s.replaceAll("[^a-zA-Z0-9@]", "");
 	        // Split by one or more spaces (ignores multiple spaces)
 	        String[] s1 = s.trim().split("\\s+");
 

@@ -14,9 +14,7 @@ public class CutRope {
 			int cut = a[i];
 			if(a[i]>0)
 			{
-				
 				System.out.println((n-i)+" ");
-				
 				for(int j=i;j<n;j++)
 				{
 					a[j]-= cut;

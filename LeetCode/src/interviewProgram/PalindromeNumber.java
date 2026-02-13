@@ -11,7 +11,6 @@ public class PalindromeNumber {
 		b = b*10+a%10;
 		a=a/10;
 	}
-	
 	System.out.println(b==cpy?"Palindrome":"Not Palindrome");
 	}
 

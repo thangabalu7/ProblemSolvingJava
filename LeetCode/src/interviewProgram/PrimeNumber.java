@@ -6,7 +6,7 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num = 47;
+		int num = 10;
 		boolean isPrime = true;
 		for (int i = 2; i <= num / 2; i++) 
 		{
@@ -19,7 +19,6 @@ public class PrimeNumber {
 			}
 		}
 		System.out.println(isPrime ? "Prime" : "Not Prime");
-		 System.out.println(new BigInteger("17").isProbablePrime(100) ? "prime" : "not prime");
 
 	}
 

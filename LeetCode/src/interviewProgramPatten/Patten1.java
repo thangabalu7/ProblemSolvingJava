@@ -5,9 +5,9 @@ public class Patten1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//    pattens1();
-//   pattens2();
-		pattens5();
+  // pattens1();
+  pattens5();
+	//	pattens5();
 	}
 	static void pattens1()
 	{
@@ -29,7 +29,7 @@ public class Patten1 {
 		{
 			for(int col=1 ; col<=n-row;col++ )
 			{
-				System.out.print("* ");
+				System.out.print(" *");
 			}
 			System.out.println();
 		}

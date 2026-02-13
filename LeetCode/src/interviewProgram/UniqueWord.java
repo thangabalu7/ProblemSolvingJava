@@ -10,7 +10,8 @@ public class UniqueWord {
 		// TODO Auto-generated method stub
 		 String sentence = "Java is easy and Java , 20 is powerful".toLowerCase();
 		
-		 sentence = sentence.replaceAll("[^a-zA-Z,0-9]", " ");
+		 sentence = sentence.replaceAll("[^"
+		 		+ "a-zA-Z,0-9]", " ");
 		String[]word= sentence.split(" ");
 		Map<String,Integer> maps = new HashMap<>();
 		for(String words : word)

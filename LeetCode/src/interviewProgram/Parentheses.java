@@ -6,7 +6,7 @@ public class Parentheses {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 String s1 = "(a+b) * (c+d)";
+		    String s1 = "(a+b) * (c+d)";
 	        String s2 = "(a+b))(";
 	        String s3 = "((a+b)";
 
